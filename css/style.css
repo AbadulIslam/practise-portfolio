@@ -1,0 +1,160 @@
+body{font-family: 'Source Sans Pro', sans-serif;
+margin: 0;
+    padding: 0;
+}
+
+/* banner section code start**/
+.banner{
+    background-image:url("../images/top-banner.png");
+  height: 500px;
+    background-repeat: no-repeat;
+}
+.banner-left{
+    width: 50%;
+    float: left;
+    padding: 10px;
+
+}
+.banner-left h1{
+    font-size: 50px;
+    text-transform:capitalize;
+}
+.banner-left h2{
+    color:rgb(249,116,93);
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.banner-left h3{
+    font-size: 40px;
+
+}
+.banner-left h4{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+.banner-left p{
+    color:gray;
+}
+.banner-left button{
+
+    padding:10px 30px;
+    margin-top:10px;
+    text-transform: capitalize;
+    background-image: linear-gradient(90deg,orange,orangered);
+    border: none;
+    border-radius: 5px;
+}
+.banner-left button a{
+    color:white; text-decoration: none;
+}
+.banner-right{
+    width: 40%;
+    float: left;
+}
+.banner-right img{
+    width: 100%;
+    margin-top:30px;
+}
+/* banner section code end*/
+
+/* dream section code start
+ */
+.dream{
+   margin-top: 100px;
+    background-image: url("../images/dream-bg.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+    }
+.dream-img{
+    width:45%;
+    float: left;
+
+}
+.dream-img img{
+    width: 100%;
+
+}
+.dream-text{
+    width: 45%;
+    float: left;
+   padding-left: 12px;
+    margin-top: 25px;
+}
+.dream-text h1{
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.dream-text h4{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.dream-text p{
+    color:gray;
+    text-transform: capitalize;
+}
+.dream-text button{
+    text-transform: capitalize;
+    border: none;
+    background-image: linear-gradient(90deg,orange,orangered);
+    padding:12px 25px;
+    border-radius: 5px;
+
+}
+.dream-text button a{
+    text-decoration: none;
+    color:white;
+
+}
+/* dream section code end*/
+
+/* experience section code start*/
+.experience{
+    padding-left: 10px;
+}
+.experience h1{
+    font-size: 35px;
+}
+.experience h3{
+    color:#F57760;
+    background:white;
+}
+.full-stack{
+    width: 43%;
+    float: left;
+    box-shadow: 5px 9px 45px gray;
+ padding:10px 20px;
+    border-left: 5px solid;
+    border-image:linear-gradient(orange,orangered) ;
+    border-image-slice: 1;
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    padding-top:10px;
+    background-position: left;
+
+
+}
+
+
+.junior{
+    width:43%;
+    float: right;
+    box-shadow: 5px 9px 45px gray;
+    margin-right: 10px; padding:10px 20px;
+    border-left: 5px solid;
+    border-image:linear-gradient(orange,orangered) ;
+    border-image-slice: 1;
+
+
+
+}
+footer p{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top:400px;
+}
